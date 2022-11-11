@@ -29,7 +29,7 @@ function SingleProduct({
             </Box>
             <Box >
                 <Badge>
-                    MRP : {price}
+                    MRP : ${price}
                 </Badge>
             </Box>
             <Box as='span' color='gray.600' fontSize='sm'>

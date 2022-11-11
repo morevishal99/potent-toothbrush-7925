@@ -231,3 +231,23 @@
     height: 20px;
     margin-top: 0px;
 }
+.ulists {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    /* margin-right: 0px; */
+    text-decoration: none;
+    /* width: 70%; */
+    margin: auto;
+    background-color: rgb(62, 61, 61);
+
+}
+
+.ulists>li {
+    /* margin-right: 20px; */
+    color:white;
+    /* font-weight: bolder; */
+    font-size: 10px;
+    line-height: 40px;
+   
+}

@@ -19,12 +19,14 @@ const slideData = [
 
     { image: "https://images-static.nykaa.com/uploads/b15d2f8f-f4a8-484b-b8b5-13d5dafc68d1.jpg?tr=w-1200,cm-pad_resize" }
   ]
-function Eyes() {
+// const slideData=[]
+  
+function Face() {
 
     const [myData, setmyData] = useState([]);
 
     useEffect(() => {
-        setmyData(data.eyes)
+        setmyData(data.faceprimer)
     }, [])
 
     const handleChange = (val) => {
@@ -47,7 +49,7 @@ function Eyes() {
     return (
         <>
         <SimpleSlider slideData={slideData} />
-            <Container maxW='container.2xl' mt={10} >
+            <Container maxW='container.2xl' mt={10}>
                 <Flex w='full' gap='20px' >
                     <Box w='20%' pl='7%' >
                         <Sorting handleChange={handleChange} />
@@ -55,10 +57,9 @@ function Eyes() {
                     <Box w='80%' >
                         <AllProducts data={myData} />
                     </Box>
-
                 </Flex>
             </Container>
         </>
     )
 }
-export default Eyes;
+export default Face;

@@ -9,10 +9,10 @@ function AddToCart() {
     // console.log('pId: ', data.faceprimer[pId - 1]);
     const [obj, setObj] = useState({})
 
-    useEffect(()=>{
+    useEffect(() => {
         setObj(data.faceprimer[pId - 1])
-    },[])
-    
+    }, [])
+
     console.log(obj);
     return (
         <Center>
@@ -29,7 +29,7 @@ function AddToCart() {
                         </Box>
                         <Box >
                             <Badge>
-                                MRP : {obj.price}
+                                MRP : ${obj.price}
                             </Badge>
                         </Box>
                         <Box as='span' color='gray.600' fontSize='sm'>

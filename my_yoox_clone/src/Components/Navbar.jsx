@@ -44,10 +44,12 @@ function Navbar() {
             <div>{<NavbarTwo />}</div>
             <div class='navbar'>
 
-                <Link style={{ textDecoration: 'none' }} to='/category'>
+                <Link style={{ textDecoration: 'none' }} to=''>
                     <ul class='ulist'>
-                        <li>Womens </li>
-                        <li>Mens</li>
+
+                        <li> <Link to="./womens"> Womens </Link> </li>
+                        <li> <Link to="./mens"> Mens </Link> </li>
+
                         <li>Kids</li>
                         <li>/</li>
                         <li>Design+Art</li>
@@ -68,8 +70,19 @@ function Navbar() {
                     <img src="https://static.vecteezy.com/system/resources/previews/004/999/463/original/shopping-cart-icon-illustration-free-vector.jpg" alt="logo" />
                 </div>
             </div>
-
+            <div> <ul class='ulists'>
+                <li>New Arrivals</li>
+                <li>Designs</li>
+                <li>Clothing</li>
+                <li>Shoes</li>
+                <li>Accessories&Bags</li>
+                <li>8By Yoox</li>
+                <li>YooxGen</li>
+                <li>Collaborations</li>
+                <li>Best Deals</li>
+            </ul></div>
         </div>
+
 
     )
 }

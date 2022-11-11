@@ -1,5 +1,5 @@
 import { Container, Heading, Text, Image, CloseButton, Button,Input,Checkbox, CheckboxGroup } from '@chakra-ui/react';
-import image from '../Images/Login.png'
+// import image from '../Images/VISHAl.png'
 // import {  } from '@chakra-ui/react'
 import { Link } from 'react-router-dom';
 function Login() {
