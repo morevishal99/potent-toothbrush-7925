@@ -1,4 +1,3 @@
-
 import { Box, Container, Flex, Select } from '@chakra-ui/react';
 import AllProducts from '../Components/AllProducts';
 import Sorting from '../Components/Sorting';
@@ -20,12 +19,12 @@ const slideData = [
     { image: "https://images-static.nykaa.com/uploads/b15d2f8f-f4a8-484b-b8b5-13d5dafc68d1.jpg?tr=w-1200,cm-pad_resize" }
   ]
 
-function Eyes() {
+function Womens() {
 
     const [myData, setmyData] = useState([]);
 
     useEffect(() => {
-        setmyData(data.eyes)
+        setmyData(data.womens)
     }, [])
 
     const handleChange = (val) => {
@@ -62,4 +61,4 @@ function Eyes() {
         </>
     )
 }
-export default Eyes;
+export default Womens;

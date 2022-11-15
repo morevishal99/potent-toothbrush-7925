@@ -3,6 +3,7 @@ import SingleDiv from '../Components/SingleDiv';
 import SimpleSlider from '../Components/Slider';
 import { Grid, Box, Image, Text } from '@chakra-ui/react'
 import VariableWidth from '../Components/Slider2';
+import Footer from '../Components/Footer';
 
 
 
@@ -113,6 +114,7 @@ function Home() {
         )
         }
       </Grid>
+      <Footer/>
     </>
   )
 }

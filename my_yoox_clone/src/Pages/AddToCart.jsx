@@ -10,7 +10,7 @@ function AddToCart() {
     const [obj, setObj] = useState({})
 
     useEffect(() => {
-        setObj(data.faceprimer[pId - 1])
+        setObj(data.womens[pId - 1])
     }, [])
 
     console.log(obj);
