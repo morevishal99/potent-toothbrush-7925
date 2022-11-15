@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import './Navbar.css'
 import NavbarTwo from "./NavbarTwo";
 // import Home from "./Home";
+import Footer from "./Footer"
 
 function Navbar() {
     // return (
@@ -41,7 +42,9 @@ function Navbar() {
     // )
     return (
         < div id="main" >
-            <div>{<NavbarTwo />}</div>
+
+            
+            <div>{<NavbarTwo/>}</div>
             <div class='navbar'>
 
                 <Link style={{ textDecoration: 'none' }} to=''>
@@ -70,7 +73,9 @@ function Navbar() {
                     <img src="https://static.vecteezy.com/system/resources/previews/004/999/463/original/shopping-cart-icon-illustration-free-vector.jpg" alt="logo" />
                 </div>
             </div>
-            <div> <ul class='ulists'>
+
+            <div>
+                 <ul class='ulists'>
                 <li>New Arrivals</li>
                 <li>Designs</li>
                 <li>Clothing</li>
@@ -80,8 +85,15 @@ function Navbar() {
                 <li>YooxGen</li>
                 <li>Collaborations</li>
                 <li>Best Deals</li>
-            </ul></div>
+            </ul>
+            </div>
+
+              
+
+
+            
         </div>
+        
 
 
     )

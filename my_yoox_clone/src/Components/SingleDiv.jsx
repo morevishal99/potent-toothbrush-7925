@@ -1,5 +1,6 @@
 import './Navbar.css'
 import { Center, Container, Text ,Box,Image} from '@chakra-ui/react'
+// import Footer from './Footer';
 
 function SingleDiv({backgroundImage,offer,range}) {
     
@@ -13,8 +14,10 @@ function SingleDiv({backgroundImage,offer,range}) {
                 <Text>{range}</Text>
                 </Box>
                 </Center>
-             
+                
+ {/* <Footer/> */}
         </Container>
+        
     )
 }
 export default SingleDiv;

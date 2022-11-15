@@ -1,6 +1,7 @@
 import { StarIcon } from "@chakra-ui/icons";
 import { Box, Image, Badge, Text, Container, VStack } from "@chakra-ui/react"
 import AddButton from "./Button";
+// import Footer from "./Footer";
 
 
 function SingleProduct({
@@ -52,6 +53,7 @@ function SingleProduct({
             </Box>
             <AddButton pId={id} /> 
             </VStack>
+            {/* <Footer/> */}
         </Box>
     )
 }

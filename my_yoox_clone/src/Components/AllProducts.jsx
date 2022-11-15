@@ -1,5 +1,6 @@
 import SingleProduct from "./SingleProduct";
 import {Grid} from '@chakra-ui/react';
+// import Footer from "./Footer";
 function AllProducts({data}){
     const breakpoints = {
         sm: 'repeat(1, 1fr)',
@@ -28,6 +29,7 @@ function AllProducts({data}){
             ))
         }
             </Grid>
+            
         </div>
         
     )

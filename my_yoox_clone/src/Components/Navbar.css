@@ -142,11 +142,11 @@
     margin-top: 50px;
 }
 
-#main {
+/* #main {
     display: flex;
     flex-direction: column;
     width: 100%;
-}
+} */
 
 .navbar {
     width: 100%;
