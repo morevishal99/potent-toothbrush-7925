@@ -114,7 +114,7 @@ function Home() {
         )
         }
       </Grid>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

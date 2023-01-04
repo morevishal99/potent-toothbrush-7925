@@ -4,6 +4,7 @@ import Sorting from '../Components/Sorting';
 import data from '../db.json'
 import { useEffect, useState } from "react";
 import SimpleSlider from '../Components/Slider';
+import Footer from '../Components/Footer';
 
 const slideData = [
     { image: "https://images-static.nykaa.com/uploads/b15d2f8f-f4a8-484b-b8b5-13d5dafc68d1.jpg?tr=w-1200,cm-pad_resize" },
@@ -57,6 +58,7 @@ function Womens() {
                     </Box>
 
                 </Flex>
+                <Footer/>
             </Container>
         </>
     )

@@ -2,8 +2,10 @@ import { Container, Heading, Text, Image, CloseButton, Button,Input,Checkbox, Ch
 // import image from '../Images/VISHAl.png'
 // import {  } from '@chakra-ui/react'
 import { Link } from 'react-router-dom';
+import Footer from '../Components/Footer';
 function Login() {
     return (
+        <>
         <Container maxW='sm' mt={20}>
             
             <Link to='/'> <CloseButton /></Link>
@@ -21,7 +23,10 @@ function Login() {
             <Button w='full' mt={8} colorScheme='teal' variant='outline' spinnerPlacement='start' > LOG IN</Button>
             <Text fontSize='xs'   mt={2}>For more information, please consult the <span fontSize="xl" color='red'> Privacy Policy</span> .</Text>
             <Text fontSize='xs'   mt={2}>ARE YOU NEW TO YOOX? <Link to="./login">REGISTER NOW</Link></Text>
+           
         </Container>
+        <Footer/>
+        </>
     )
 }
 export default Login;
