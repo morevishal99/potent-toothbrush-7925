@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function FooterEnd() {
   return (
-    <div>
+   
       <Box
         w={"100%"}
         h={"130px"}
@@ -18,6 +18,6 @@ export default function FooterEnd() {
           <div>LEGAL AREA / PRIVACY POLICY</div>
         </p>
       </Box>
-    </div>
+   
   );
 }

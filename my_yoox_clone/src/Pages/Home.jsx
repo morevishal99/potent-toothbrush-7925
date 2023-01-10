@@ -93,7 +93,7 @@ function Home() {
     <>
       <SimpleSlider slideData={slideData} />
 
-      <VariableWidth />
+      {/* <VariableWidth /> */}
 
       <Box m={'auto'} mt={8}>
         <Image m={'auto'} w='70%' src='https://images-static.nykaa.com/uploads/2f371d7d-235a-4be5-b852-a5ddf4cd84ea.jpg?tr=w-1200,cm-pad_resize' alt='Dan Abramov' />
@@ -114,7 +114,8 @@ function Home() {
         )
         }
       </Grid>
-      {/* <Footer/> */}
+      <Box> <Footer/></Box>
+     
     </>
   )
 }

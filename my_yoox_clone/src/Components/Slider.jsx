@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 // import './Navbar.css'
 import "../App.css";
 
-export default function SimpleSlider({slideData}){
+ function SimpleSlider({slideData}){
     // console.log("SildeData",slideData)
     const settings = {
       dots: true,
@@ -17,7 +17,7 @@ export default function SimpleSlider({slideData}){
       autoplaySpeed: 2000,
     };
     return (
-      <div class='slidediv'>
+      <div className='slidediv'>
         <Slider {...settings} >
           {
             slideData.map((e)=>(
@@ -30,3 +30,4 @@ export default function SimpleSlider({slideData}){
       </div>  
     );
   }
+  export default SimpleSlider

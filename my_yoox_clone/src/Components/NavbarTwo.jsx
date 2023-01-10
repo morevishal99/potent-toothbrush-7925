@@ -6,8 +6,8 @@ function NavbarTwo() {
    
     return (
         < div id="main" >
-            <div class='navbar'>
-                <ul class='navbartop'>
+            <div className='navbar'>
+                <ul className='navbartop'>
                     <li> UNINTED STATES</li>
                     <li>CUSTOMER CARE</li>
                     <li>FREE STANDARD SHPPIN ON ORDER OVER $250</li>
