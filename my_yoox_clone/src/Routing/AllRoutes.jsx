@@ -13,6 +13,7 @@ function AllRoutes(){
             <Route path='/login' element={<Login/>}></Route>
             <Route path="/mens" element={<Mens/>}></Route>
             <Route path='/womens/:pId' element={<AddToCart/>}></Route>
+            <Route path='/mens/:pId' element={<AddToCart/>}></Route>
            {/* <Route path="/eyes" element={<Eyes/>}></Route> */}
         </Routes>
 

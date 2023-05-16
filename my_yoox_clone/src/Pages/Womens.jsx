@@ -47,7 +47,7 @@ function Womens() {
 
     return (
         <>
-        <SimpleSlider slideData={slideData} />
+        {/* <SimpleSlider slideData={slideData} /> */}
             <Container maxW='container.2xl' mt={10} >
                 <Flex w='full' gap='20px' >
                     <Box w='20%' pl='7%' >

@@ -3,10 +3,11 @@ import './Navbar.css'
 import NavbarTwo from "./NavbarTwo";
 import Home from "../Pages/Home";
 import Footer from "./Footer"
+import { Box } from "@chakra-ui/react";
 
 function Navbar() {
     return (
-        < div id="main" >
+        <Box Box id="main" position={"sticky"} top="0" zIndex={9} >
 
 
             <div>{<NavbarTwo />}</div>
@@ -57,7 +58,7 @@ function Navbar() {
             {/* <div><Home/></div> */}
 
 
-        </div>
+        </Box>
 
 
 
