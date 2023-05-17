@@ -7,7 +7,7 @@ import { Box } from "@chakra-ui/react";
 
 function Navbar() {
     return (
-        <Box Box id="main" position={"sticky"} top="0" zIndex={9} >
+        <Box  id="main" position={"sticky"} top="0" zIndex={9} >
 
 
             <div>{<NavbarTwo />}</div>

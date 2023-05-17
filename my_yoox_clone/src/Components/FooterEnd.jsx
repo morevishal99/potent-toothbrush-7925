@@ -15,7 +15,7 @@ export default function FooterEnd() {
           POWERED BY YOOX NET-A-PORTER GROUP - COPYRIGHT © 2000-2022 YOOX
           NET-A-PORTER GROUP S.P.A. - ALL RIGHTS RESERVED - SIAE LICENCE #
           401/I/526
-          <div>LEGAL AREA / PRIVACY POLICY</div>
+          LEGAL AREA / PRIVACY POLICY
         </p>
       </Box>
    

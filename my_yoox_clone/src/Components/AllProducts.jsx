@@ -18,7 +18,7 @@ function AllProducts({ data }) {
                         category={e.category}
                         feautured={e.feautured}
                         bestSeller={e.bestSeller}
-                        image={e.image}
+                        image={e.images}
                         name={e.name}
                         offer={e.offer}
                         mrp={e.mrp}
